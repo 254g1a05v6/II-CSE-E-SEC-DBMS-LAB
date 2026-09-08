@@ -261,7 +261,7 @@ AND s.sid IN
     AND b.color = 'green'
 );
 ```
-![outpu](output-week2/q20,jpeg)
+![outpu](output-week2/q20.jpeg)
 ```
 SELECT s.sname FROM Sailors s
 WHERE NOT EXISTS
@@ -304,7 +304,7 @@ WHERE age =
 SELECT COUNT(*)
 FROM Sailors;
 ```
-![output](output-week2q25.jpeg)
+![output](output-week2/qs25.jpeg)
 
 ```
 SELECT COUNT(DISTINCT sname)
@@ -371,7 +371,7 @@ WHERE age >= 18
 GROUP BY rating
 HAVING COUNT(*) >= 2;
 ```
-![output](output-week2/q32.jpeg)
+![output](output-week2/qs32.jpeg)
 ```
 SELECT rating, AVG(age)
 FROM Sailors

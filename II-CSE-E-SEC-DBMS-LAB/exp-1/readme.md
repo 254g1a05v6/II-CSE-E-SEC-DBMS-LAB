@@ -58,52 +58,76 @@ DESC grade_report;
 ```
 ![output](output-week1/desc-gradereport.jpeg)
 # insertion into student
+```
 INSERT INTO student VALUES ('Smith', 17, 1, 'CS');
 INSERT INTO student VALUES ('Brown', 18, 2, 'CS');
-![output](insert-student)
-#insertion into course
+```
+![output](output-week1/insert-student.jpeg)
+# insertion into course
+```
 INSERT INTO course VALUES ('Intro to Computer Science', 'CS1310', 4, 'CS');
 INSERT INTO course VALUES ('Data Structures', 'CS3320', 4, 'CS');
 INSERT INTO course VALUES ('Discrete Mathematics', 'MATH2410', 3, 'MATH');
 INSERT INTO course VALUES ('Database Systems', 'CS3380', 3, 'CS');
-![output](insert-course)
-#insertion into section
+```
+![output](output-week1/insert-course.jpeg)
+# insertion into section
+```
 INSERT INTO SECTION VALUES(85,'MATH2410','Fall',07,'King');
 INSERT INTO SECTION VALUES(92,'CS1310','Fall',07,'Anderson');
 INSERT INTO SECTION VALUES(102,'CS3320','Spring',08,'Knuth');
 INSERT INTO SECTION VALUES(112,'MATH2410','Fall',08,'Chang');
 INSERT INTO SECTION VALUES(119,'CS1310','Fall',08,'Anderson');
 INSERT INTO SECTION VALUES(135,'CS3320','Fall',08,'Stone');
-![output](insert-section)
-#insertion into grade_report
+```
+![output](output-week1/insert-section.jpeg)
+# insertion into grade_report
+```
 INSERT INTO GRADE_REPORT VALUES(17,112,'B');
 INSERT INTO GRADE_REPORT VALUES(17,119,'C');
 INSERT INTO GRADE_REPORT VALUES(8,85,'A');
 INSERT INTO GRADE_REPORT VALUES(8,92,'A');
 INSERT INTO GRADE_REPORT VALUES(8,102,'B');
 INSERT INTO GRADE_REPORT VALUES(8,135,'A');
-![output](insert-gradereport)
-#table of student
+```
+![output](output-week1/insert-gradereport.jpeg)
+# table of student
+```
 SELECT * FROM student;
-![output](output-a)
-#table of course
+```
+![output](output-week1/output-a.jpeg)
+# table of course
+```
 SELECT * FROM course;
-![output](output-b)
-#table of section
+```
+![output](output-week1/output-b.jpeg)
+# table of section
+```
 SELECT * FROM section;
-![output](output-c)
-#table of grade_report
+```
+![output](output-week1/output-c.jpeg)
+# table of grade_report
+```
 SELECT * FROM grade_report;
-![output](output-d)
-#drop table of grade_report
+```
+![output](output-week1/output-d.jpeg)
+# drop table of grade_report
+```
 DROP TABLE grade_report;
-![output](delete-gradereport)
-#drop table of section
+```
+![output](output-week1/delete-gradereport.jpeg)
+# drop table of section
+```
 DROP TABLE section;
-![output](delete-section)
-#drop table of course
+```
+![output](output-week1/delete-section.jpeg)
+# drop table of course
+```
 DROP TABLE course;
-![output](delete-course)
-#drop table of student
+```
+![output](output-week1/delete-course.jpeg)
+# drop table of student
+```
 DROP TABLE student;
-![output](delete-student)
+```
+![output](output-week1/delete-studen.jpegt)

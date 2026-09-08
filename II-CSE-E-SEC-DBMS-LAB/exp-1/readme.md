@@ -130,4 +130,4 @@ DROP TABLE course;
 ```
 DROP TABLE student;
 ```
-![output](output-week1/delete-studen.jpegt)
+![output](output-week1/delete-student.jpegt)

@@ -9,15 +9,17 @@ CREATE TABLE student (
 );
 ```
 ![output](output-week1/1-table.jpeg)
-#course table creation
+# course table creation
+```
 CREATE TABLE course (
     course_name VARCHAR2(50),
     course_number VARCHAR2(10),
     credit_hours NUMBER,
     department VARCHAR2(30)
 );
-![output](2-table)
-#section table creation
+```
+![output](output-week1/2-table.jpeg)
+# section table creation
 CREATE TABLE section (
     section_identifier NUMBER,
     course_number VARCHAR2(10),

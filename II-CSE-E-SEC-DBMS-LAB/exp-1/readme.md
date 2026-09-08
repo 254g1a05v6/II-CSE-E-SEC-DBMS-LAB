@@ -20,6 +20,7 @@ CREATE TABLE course (
 ```
 ![output](output-week1/2-table.jpeg)
 # section table creation
+```
 CREATE TABLE section (
     section_identifier NUMBER,
     course_number VARCHAR2(10),
@@ -27,16 +28,19 @@ CREATE TABLE section (
     year NUMBER,
     instructor VARCHAR2(50)
 );
-![output](3-table)
-#grade_report table creation
+```
+![output](output-week1/3-table.jpeg)
+# grade_report table creation
+```
 CREATE TABLE grade_report (
     student_number NUMBER,
     section_identifier NUMBER,
     grade VARCHAR2(1)
 );
-![output](4-table)
+```
+![output](output-week1/4-table.jpeg)
 
-#ddescribing of tables
+# describing of tables
 DESC student;
 ![output](desc-student)
 DESC course;

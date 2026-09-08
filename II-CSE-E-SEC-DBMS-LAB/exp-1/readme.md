@@ -41,15 +41,23 @@ CREATE TABLE grade_report (
 ![output](output-week1/4-table.jpeg)
 
 # describing of tables
+```
 DESC student;
-![output](desc-student)
+```
+![output](output-week1/desc-student.jpeg)
+```
 DESC course;
-![output](desc-course)
+```
+![output](output-week1/desc-course.jpeg)
+```
 DESC section;
-![output](desc-section)
+```
+![output](output-week1/desc-section.jpeg)
+```
 DESC grade_report;
-![output](desc-gradereport)
-#insertion into student
+```
+![output](output-week1/desc-gradereport.jpeg)
+# insertion into student
 INSERT INTO student VALUES ('Smith', 17, 1, 'CS');
 INSERT INTO student VALUES ('Brown', 18, 2, 'CS');
 ![output](insert-student)

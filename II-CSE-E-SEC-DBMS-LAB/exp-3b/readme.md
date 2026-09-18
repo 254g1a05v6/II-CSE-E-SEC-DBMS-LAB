@@ -6,20 +6,20 @@ CREATE VIEW EMP_VIEW AS
 SELECT *
 FROM EMPLOYEE;
 ```
-![output a](outputs-3b/3B-Q1.png)
+![output a](output-week3b/q1.png)
 # Q2
 ```
 CREATE VIEW EMP_BASIC AS
 SELECT EMPLOYEE_ID, FIRST_NAME, LAST_NAME, DEPARTMENT, SALARY
 FROM EMPLOYEE;
 ```
-![output a](outputs-3b/3B-Q2.png)
+![output a](output-week3b/q2.png)
 
 # Q3
 ```
 SELECT * FROM EMP_VIEW;
 ```
-![output a](outputs-3b/3B-Q3.png)
+![output a](output-week3b/q3.png)
 
 # Q4
 ```
@@ -27,7 +27,7 @@ CREATE VIEW IT_EMPLOYEES AS
 SELECT * FROM EMPLOYEE
 WHERE DEPARTMENT = 'IT';
 ```
-![output a](outputs-3b/3B-Q4.png)
+![output a](output-week3b/q4.png)
 
 # Q5
 ```
@@ -35,7 +35,7 @@ CREATE VIEW HIGH_SALARY AS
 SELECT * FROM EMPLOYEE
 WHERE SALARY > 60000;
 ```
-![output a](outputs-3b/3B-Q5.png)
+![output a](output-week3b/q5.png)
 
 # Q6
 ```
@@ -44,7 +44,7 @@ SELECT *
 FROM EMPLOYEE
 WHERE CITY = 'Hyderabad';
 ```
-![output a](outputs-3b/3B-Q6.png)
+![output a](output-week3b/q6.png)
 
 # Q7
 ```
@@ -53,7 +53,7 @@ SELECT *
 FROM EMPLOYEE
 WHERE GENDER = 'Female';
 ```
-![output a](outputs-3b/3B-Q7.png)
+![output a](output-week3b/q7.png)
 
 # Q8
 ```
@@ -62,14 +62,14 @@ SELECT *
 FROM EMPLOYEE
 WHERE HIRE_DATE >= TO_DATE('01-JAN-2020','DD-MON-YYYY');
 ```
-![output a](outputs-3b/3B-Q8.png)
+![output a](output-week3b/q8.png)
 
 # Q9
 ```
 SELECT EMPLOYEE_ID, FIRST_NAME, SALARY
 FROM HIGH_SALARY;
 ```
-![output a](outputs-3b/3B-Q9.png)
+![output a](output-week3b/q9.png)
 
 # Q10
 ```
@@ -78,7 +78,7 @@ SELECT EMPLOYEE_ID, FIRST_NAME, LAST_NAME,
        DEPARTMENT, SALARY, CITY
 FROM EMPLOYEE;
 ```
-![output a](outputs-3b/3B-Q10.png)
+![output a](output-week3b/q10.png)
 
 # Q11
 ```
@@ -87,7 +87,7 @@ SELECT EMPLOYEE_ID, FIRST_NAME, LAST_NAME, SALARY
 FROM EMPLOYEE
 WITH READ ONLY;
 ```
-![output a](outputs-3b/3B-Q11.png)
+![output a](output-week3b/q11.png)
 
 # Q12
 ```
@@ -97,7 +97,7 @@ FROM EMPLOYEE
 WHERE DEPARTMENT = 'Sales'
 WITH CHECK OPTION;
 ```
-![output a](outputs-3b/3B-Q12.png)
+![output a](output-week3b/q12.png)
 
 # Q13
 ```
@@ -107,7 +107,7 @@ WHERE EMPLOYEE_ID = 101;
 
 COMMIT;
 ```
-![output a](outputs-3b/3B-Q13.png)
+![output a](output-week3b/q13.png)
 
 # Q14
 ```
@@ -116,7 +116,7 @@ WHERE EMPLOYEE_ID = 107;
 
 COMMIT;
 ```
-![output a](outputs-3b/3B-Q14.png)
+![output a](output-week3b/q14.png)
 
 # Q15
 ```
@@ -125,51 +125,51 @@ VALUES (111, 'Ravi', 'Kumar', 'IT', 50000, 'Hyderabad');
 
 COMMIT;
 ```
-![output a](outputs-3b/3B-Q15.png)
+![output a](output-week3b/q15.png)
 
 # Q16
 ```
 DESC EMP_BASIC;
 ```
-![output a](outputs-3b/3B-Q16.png)
+![output a](output-week3b/q16.png)
 
 # Q17
 ```
 SELECT * FROM IT_EMPLOYEES;
 ```
-![output a](outputs-3b/3B-Q17.png)
+![output a](output-week3b/q17.png)
 
 # Q18
 ```
 SELECT * FROM HIGH_SALARY
 WHERE SALARY > 70000;
 ```
-![output a](outputs-3b/3B-Q18.png)
+![output a](output-week3b/q18.png)
 
 # Q19
 ```
 SELECT * FROM FEMALE_EMP;
 ```
-![output a](outputs-3b/3B-Q19.png)
+![output a](output-week3b/q19.png)
 
 # Q20
 ```
 SELECT FIRST_NAME, SALARY
 FROM HYDERABAD_EMP;
 ```
-![output a](outputs-3b/3B-Q20.png)
+![output a](output-week3b/q20.png)
 
 # Q21
 DROP VIEW EMP_VIEW;
-![output a](outputs-3b/3B-Q21.png)
+![output a](output-week3b/q21.png)
 
 # Q22
 DROP VIEW HIGH_SALARY;
-![output a](outputs-3b/3B-Q22.png)
+![output a](output-week3b/q22.png)
 
 # Q23
 DROP VIEW EMP_BASIC;
-![output a](outputs-3b/3B-Q23.png)
+![output a](output-week3b/q23.png)
 
 # Q24
 ```
@@ -177,7 +177,7 @@ CREATE VIEW HR_EMPLOYEES AS
 SELECT * FROM EMPLOYEE
 WHERE DEPARTMENT = 'HR';
 ```
-![output a](outputs-3b/3B-Q24.png)
+![output a](output-week3b/q24.png)
 
 # Q25
 ```
@@ -186,7 +186,7 @@ SELECT EMPLOYEE_ID, FIRST_NAME, DEPARTMENT, SALARY
 FROM EMPLOYEE
 WHERE DEPARTMENT = 'Marketing';
 ```
-![output a](outputs-3b/3B-Q25.png)
+![output a](output-week3b/q25.png)
 
 # Q26
 ```
@@ -194,11 +194,11 @@ CREATE VIEW TOP_EARNERS AS
 SELECT * FROM EMPLOYEE
 WHERE SALARY > 70000;
 ```
-![output a](outputs-3b/3B-Q26.png)
+![output a](output-week3b/q26.png)
 
 # Q27
 ```
 SELECT EMPLOYEE_ID, FIRST_NAME, LAST_NAME, CITY
 FROM EMPLOYEE;
 ```
-![output a](outputs-3b/3B-Q27.png)
+![output a](output-week3b/q27.png)

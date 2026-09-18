@@ -58,7 +58,7 @@ INSERT INTO DEPT VALUES (70, 'CSD');
 
 COMMIT;
 ```
-![output e](output-week5/q5.png)
+![output e](output-week4/q5.png)
 
 # Q6: Insert student details
 ```
@@ -75,7 +75,7 @@ INSERT INTO STUDENT VALUES (110, 'Vijay', NULL);
 
 COMMIT;
 ```
-![output f](output-week6/q6.png)
+![output f](output-week4/q6.png)
 
 # Q7: NATURAL JOIN Student and Dept
 ```

@@ -8,7 +8,7 @@ CREATE TABLE DEPT
     DNAME VARCHAR2(30)
 );
 ```
-![Output a](outputs/1.png)
+![Output a](output-week4/q1.png)
 
 # Q2: Apply Primary Key on DNO and NOT NULL on DNAME
 ```
@@ -18,7 +18,7 @@ ADD CONSTRAINT DEPT_PK PRIMARY KEY (DNO);
 ALTER TABLE DEPT
 MODIFY DNAME NOT NULL;
 ```
-![output b](outputs/2.png)
+![output b](output-week4/q2.png)
 
 # Q3: Create STUDENT table
 ```
@@ -30,7 +30,7 @@ CREATE TABLE STUDENT
 );
 ```
 
-![output c](outputs/3.png)
+![output c](output-week4/q3.png)
 
 # Q4: Apply Primary Key, NOT NULL and Foreign Key constraints
 ```
@@ -44,7 +44,7 @@ ALTER TABLE STUDENT
 ADD CONSTRAINT STUDENT_FK
 FOREIGN KEY (DID) REFERENCES DEPT(DNO);
 ```
-![output d](outputs/4.png)
+![output d](output-week4/q4.png)
 
 # Q5: Insert department details
 ```
@@ -58,7 +58,7 @@ INSERT INTO DEPT VALUES (70, 'CSD');
 
 COMMIT;
 ```
-![output e](outputs/5.png)
+![output e](output-week5/q5.png)
 
 # Q6: Insert student details
 ```
@@ -75,7 +75,7 @@ INSERT INTO STUDENT VALUES (110, 'Vijay', NULL);
 
 COMMIT;
 ```
-![output f](outputs/6.png)
+![output f](output-week6/q6.png)
 
 # Q7: NATURAL JOIN Student and Dept
 ```
@@ -88,7 +88,7 @@ NATURAL JOIN
 );
 
 ```
-![output g](outputs/7.png)
+![output g](output-week4/q7.png)
 
 # Q8: EQUI JOIN Student and Dept
 ```
@@ -97,7 +97,7 @@ FROM STUDENT S
 INNER JOIN DEPT D
 ON S.DID = D.DNO;
 ```
-![output h](outputs/8.png)
+![output h](output-week4/q8.png)
 
 # Q9: CONDITIONAL JOIN Student and Dept
 ```
@@ -106,7 +106,7 @@ FROM STUDENT S
 JOIN DEPT D
 ON S.DID > D.DNO;
 ```
-![output i](outputs/9.png)
+![output i](output-week4/q9.png)
 
 # Q10: LEFT OUTER NATURAL JOIN Student and Dept
 ```
@@ -119,7 +119,7 @@ LEFT OUTER JOIN
 ) D
 ON S.DID = D.DID;
 ```
-![output j](outputs/10.png)
+![output j](output-week4/q10.png)
 
 # Q11: RIGHT OUTER NATURAL JOIN Student and Dept
 ```
@@ -132,7 +132,7 @@ RIGHT OUTER JOIN
 ) D
 ON S.DID = D.DID;
 ```
-![output k](outputs/11.png)
+![output k](output-week4/q11.png)
 
 # Q12: FULL OUTER NATURAL JOIN Student and Dept
 ```
@@ -146,7 +146,7 @@ FULL OUTER JOIN
 ON S.DID = D.DID;
 
 ```
-![output l](outputs/12.png)
+![output l](output-week4/q12.png)
 
 # Q13: LEFT OUTER EQUI JOIN Student and Dept
 ```
@@ -155,7 +155,7 @@ FROM STUDENT S
 LEFT OUTER JOIN DEPT D
 ON S.DID = D.DNO;
 ```
-![output m](outputs/13.png)
+![output m](output-week4/q13.png)
 
 # Q14: RIGHT OUTER EQUI JOIN Student and Dept
 ```
@@ -164,7 +164,7 @@ FROM STUDENT S
 RIGHT OUTER JOIN DEPT D
 ON S.DID = D.DNO;
 ```
-![output n](outputs/14.png)
+![output n](output-week4/q14.png)
 
 # Q15: FULL OUTER EQUI JOIN Student and Dept
 ```
@@ -173,7 +173,7 @@ FROM STUDENT S
 FULL OUTER JOIN DEPT D
 ON S.DID = D.DNO;
 ```
-![output o](outputs/15.png)
+![output o](output-week4/q15.png)
 
 # Q16: LEFT OUTER CONDITIONAL JOIN Student and Dept
 ```
@@ -182,7 +182,7 @@ FROM STUDENT S
 LEFT OUTER JOIN DEPT D
 ON S.DID > D.DNO;
 ```
-![output p](outputs/16.png)
+![output p](output-week4/q16.png)
 
 # Q17: RIGHT OUTER CONDITIONAL JOIN Student and Dept
 ```
@@ -191,7 +191,7 @@ FROM STUDENT S
 RIGHT OUTER JOIN DEPT D
 ON S.DID > D.DNO;
 ```
-![output q](outputs/17.png)
+![output q](output-week4/q17.png)
 
 # Q18: FULL OUTER CONDITIONAL JOIN Student and Dept
 ```
@@ -200,7 +200,7 @@ FROM STUDENT S
 FULL OUTER JOIN DEPT D
 ON S.DID > D.DNO;
 ```
-![output r](outputs/18.png)
+![output r](output-week4/q18.png)
 
 # Q19: CROSS JOIN Student and Dept
 ```
@@ -208,4 +208,4 @@ SELECT S.SID, S.SNAME, D.DNO, D.DNAME
 FROM STUDENT S
 CROSS JOIN DEPT D;
 ```
-![output s](outputs/19.png)
+![output s](output-week4/q19.png)

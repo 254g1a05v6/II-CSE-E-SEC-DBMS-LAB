@@ -1,3 +1,4 @@
+```
 SET SERVEROUTPUT ON;
 
 -- Step 1 & 2: Create EMPLOYEE table
@@ -49,7 +50,9 @@ WHERE EMP_NAME = 'Ravi';
 
 SELECT *
 FROM TABLE(DBMS_XPLAN.DISPLAY);
-![op3](op3.png)
+```
+![output](output-week10/op3.png)
+```
 -- Step 9 & 10: Display index information
 SELECT INDEX_NAME,
        TABLE_NAME,
@@ -65,4 +68,5 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Non-indexed and indexed search operations completed successfully.');
 END;
 /
-![op4](op4.png)
+```
+![output](output-week10/op4.png)

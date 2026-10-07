@@ -1,3 +1,4 @@
+```
 -- EXPERIMENT-8
 -- PROGRAM 1: CURSOR WITH PARAMETERS
 -- BANKING SYSTEM
@@ -54,7 +55,9 @@ BEGIN
 
 END;
 /
-![output 1](op1.png)
+```
+![output](output-week8/op1.png)
+```
 -- EXPERIMENT-8
 -- PROGRAM 2: CURSOR WITH PARAMETERS
 -- HOSPITAL MANAGEMENT
@@ -111,7 +114,9 @@ BEGIN
 
 END;
 /
-![output 1](op2.png)
+```
+![output](output-week8/op2.png)
+```
 SET SERVEROUTPUT ON;
 DROP TABLE EMPLOYEE;
 SELECT * FROM EMPLOYEE;
@@ -161,7 +166,9 @@ BEGIN
 
 END;
 /
-![output 1](op3.png)
+```
+![output](output-week8/op3.png)
+```
 -- Display updated table
 SELECT EMPLOYEE_ID,
        EMPLOYEE_NAME,
@@ -216,14 +223,18 @@ BEGIN
 
 END;
 /
-![output 1](op5.png)
+```
+![output](output-week8/op5.png)
+```
 -- Display updated BOOK table
 SELECT BOOK_ID,
        BOOK_TITLE,
        AUTHOR,
        AVAILABLE_COPIES
 FROM BOOK;
-![output 2](op6.png)
+```
+![output](output-week8/op6.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create PRODUCT table
@@ -271,14 +282,18 @@ BEGIN
 
 END;
 /
-![output 1](op7.png)
+```
+![output](output-week8/op7.png)
+```
 -- Display updated PRODUCT table
 SELECT PRODUCT_ID,
        PRODUCT_NAME,
        PRICE,
        QUANTITY
 FROM PRODUCT;
-![output 2](op8.png)
+```
+![output](output-week8/op8.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create STUDENT table
@@ -343,7 +358,9 @@ BEGIN
 
 END;
 /
-![output 1](op9.png)
+```
+![output](output-week8/op9.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create DOCTOR table
@@ -408,7 +425,9 @@ BEGIN
 
 END;
 /
-![output 1](op10.png)
+```
+![output](output-week8/op10.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create ORDERS table
@@ -478,7 +497,9 @@ BEGIN
 
 END;
 /
-![output 1](op11.png)
+```
+![output](output-week8/op11.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create EMPLOYEE table
@@ -545,8 +566,9 @@ BEGIN
 
 END;
 /
-![output 1](op12.png)
-
+```
+![output](output-week8/op12.png)
+```
 -- Display updated EMPLOYEE table
 SELECT EMPLOYEE_ID,
        EMPLOYEE_NAME,
@@ -554,7 +576,9 @@ SELECT EMPLOYEE_ID,
        SALARY,
        EXPERIENCE
 FROM EMPLOYEE;
-![output 2](op13.png)
+```
+![output](output-week8/op13.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create STUDENT table
@@ -675,7 +699,9 @@ BEGIN
 
 END;
 /
-![output 1](op14.png)
+```
+![output](output-week8/op14.png)
+```
 -- Display final updated table
 SELECT STUDENT_ID,
        STUDENT_NAME,
@@ -684,4 +710,5 @@ SELECT STUDENT_ID,
        CGPA,
        SCHOLARSHIP_STATUS
 FROM STUDENT;
-![output 2](op15.png)
+```
+![output](output-week8/op15.png)

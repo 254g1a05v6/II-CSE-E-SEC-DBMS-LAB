@@ -1,3 +1,4 @@
+```
 SELECT * FROM STUDENT1;
 DESC STUDENT1;
 INSERT INTO STUDENT1 VALUES (101, 'Ayesha', 'CSE', 85);
@@ -91,4 +92,5 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
 END;
 /
-![output](6.png)
+```
+![output](output-week6/6.png)

@@ -1,3 +1,4 @@
+```
 SET SERVEROUTPUT ON;
 
 CREATE TABLE STUDENT1 (
@@ -38,7 +39,10 @@ EXCEPTION
         ROLLBACK;
 END;
 /
-![outout 1](output7.png)
+```
+![output](output-week5b/output7.png)
+```
 SELECT * FROM STUDENT1
 WHERE STUDENT_ID BETWEEN 201 AND 203;
-![output 2](output6.png)
+```
+![output](output-week5b/output6.png)

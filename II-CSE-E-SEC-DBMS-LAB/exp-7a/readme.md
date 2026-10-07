@@ -1,3 +1,4 @@
+```
 -- EXPERIMENT-7(a)
 -- PL/SQL Procedures and Functions
 -- Procedure with IN and OUT Parameters
@@ -59,8 +60,9 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Marks        : ' || V_MARKS);
 END;
 /
-![output 1](output1.png)
-
+```
+![output](output-week7a/output1.png)
+```
 DECLARE
     V_NAME  VARCHAR2(30);
     V_MARKS NUMBER(3);
@@ -76,4 +78,5 @@ BEGIN
     END IF;
 END;
 /
-![output 2](output2.png)
+```
+![output](output-week7a/output2.png)

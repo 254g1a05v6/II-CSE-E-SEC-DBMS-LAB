@@ -326,7 +326,7 @@ SELECT EMPLOYEE_ID,
        SALARY
 FROM EMPLOYEE;
 ```
-1[output](output-week9/op10.png)
+![output](output-week9/op10.png)
 ```
 BEGIN
         'Employee record updated through the view.'

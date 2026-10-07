@@ -267,7 +267,9 @@ COMMIT;
 -- Display remaining EMPLOYEE records
 SELECT *
 FROM EMPLOYEE;
-![output 1](op7.png)
+```
+![output](output-week9/op7.png)
+```
 -- Display DELETE LOG
 SELECT *
 FROM DELETE_LOG;
@@ -324,8 +326,9 @@ SELECT EMPLOYEE_ID,
        SALARY
 FROM EMPLOYEE;
 ```
-1[output](output-week9/op10.png)BEGIN
+1[output](output-week9/op10.png)
 ```
+BEGIN
         'Employee record updated through the view.'
     );
     UPDATE EMPLOYEE

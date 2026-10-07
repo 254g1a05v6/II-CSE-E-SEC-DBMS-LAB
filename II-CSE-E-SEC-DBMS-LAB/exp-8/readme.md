@@ -576,7 +576,9 @@ SELECT EMPLOYEE_ID,
        SALARY,
        EXPERIENCE
 FROM EMPLOYEE;
-![output 2](op13.png)
+```
+![output](output-week8/op13.png)
+```
 SET SERVEROUTPUT ON;
 
 -- Create STUDENT table

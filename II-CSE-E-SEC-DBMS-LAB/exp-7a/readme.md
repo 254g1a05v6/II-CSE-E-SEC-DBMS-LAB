@@ -61,7 +61,7 @@ BEGIN
 END;
 /
 ```
-![output](output-week7a/output1.png)
+![output](output-7a/output1.png)
 ```
 DECLARE
     V_NAME  VARCHAR2(30);
@@ -79,4 +79,4 @@ BEGIN
 END;
 /
 ```
-![output](output-week7a/output2.png)
+![output](output-7a/output2.png)

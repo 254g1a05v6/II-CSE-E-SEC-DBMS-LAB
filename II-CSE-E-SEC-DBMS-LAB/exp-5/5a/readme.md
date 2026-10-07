@@ -83,4 +83,4 @@ END;
 ```
 ![output](output-week5a/output3.png)
 ![output](output-week5a/output4.png)
-![output](otutput-week5a/output5.png)
+![output](output-week5a/output5.png)
